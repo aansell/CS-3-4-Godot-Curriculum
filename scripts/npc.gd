@@ -1,7 +1,7 @@
 extends CharacterBody2D
 class_name npc
 
-@onready var player: Player = %Player
+@onready var player: = %Player
 
 @export var health : int = 10
 @export var speed : int = 200
