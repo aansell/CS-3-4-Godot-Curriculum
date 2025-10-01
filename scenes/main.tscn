@@ -90,4 +90,4 @@ grow_vertical = 2
 [node name="slime" parent="." instance=ExtResource("11_ya4ey")]
 position = Vector2(-496, 36)
 script = ExtResource("12_eb6dy")
-move_points = Array[Vector2]([Vector2(-350, -21), Vector2(-520, -68)])
+move_points = Array[Vector2]([Vector2(-350, -21), Vector2(-520, -300)])
