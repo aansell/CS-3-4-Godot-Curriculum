@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=4 format=3 uid="uid://c7qxm2v8pqb3h"]
+[gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=4 format=3 uid="uid://c73jpq85ul2ig"]
 
 [ext_resource type="Texture2D" uid="uid://cqatq7nlwor0e" path="res://assets/point_arrow.png" id="1_6cgaj"]
 [ext_resource type="Script" uid="uid://c6yex7bm6vt2g" path="res://scripts/resources/projectile_weapon_resource.gd" id="1_basic_pistol"]

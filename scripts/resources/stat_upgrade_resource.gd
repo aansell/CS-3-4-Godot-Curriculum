@@ -77,7 +77,7 @@ class_name StatUpgradeResource
 ## Enum defining available upgrade types
 enum UpgradeType {
 	HEALTH,    ## Increases max health
-		
+	PIERCING,  ## Allows bullets to pierce
 }
 
 @export_group("Upgrade Identity")
@@ -111,6 +111,13 @@ func apply_to_player(player: Player) -> bool:
 		UpgradeType.HEALTH:
 			return player.upgrade_health(amount)
 		
+		_:
+			push_error("Unknown stat_type: " + str(stat_type))
+			return false
+			
+		UpgradeType.SPEED:              # <-- Add new case
+			return player.upgrade_speed(amount)
+			
 		_:
 			push_error("Unknown stat_type: " + str(stat_type))
 			return false
