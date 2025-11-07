@@ -15,4 +15,3 @@ move_speed = 140.0
 detection_range = 800.0
 xp_value = 8
 spawn_weight = 8
-credit_cost = 8

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyResource" load_steps=3 format=3 uid="uid://cvirnqj3643np"]
+
+[ext_resource type="SpriteFrames" uid="uid://cxd7c5tt8o38t" path="res://resources/animations/vampire_frames.tres" id="1_3nbt0"]
+[ext_resource type="Script" uid="uid://bxtjti5hlu2op" path="res://scripts/resources/enemy_resource.gd" id="2_4ueio"]
+
+[resource]
+script = ExtResource("2_4ueio")
+enemy_id = "magic_user"
+enemy_name = "Basic Slime"
+animated_frames = ExtResource("1_3nbt0")
+sprite_scale = 6.0
+max_health = 500.0
+contact_damage = 8.0
+move_speed = 50.0
+detection_range = 800.0
+xp_value = 50
+spawn_weight = 1
